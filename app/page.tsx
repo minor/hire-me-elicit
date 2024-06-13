@@ -78,7 +78,16 @@ export default function Home() {
                       <div className="logos-row">
                         <div className="logo-block">
                           <img
-                            src="https://1000logos.net/wp-content/uploads/2022/07/Northeastern-University-Logo-1922-500x281.png"
+                            src="https://seeklogo.com/images/N/northeastern-university-logo-CD40BD15B7-seeklogo.com.png"
+                            loading="lazy"
+                            width="120"
+                            className="-mt-3"
+                            alt=""
+                          />
+                        </div>
+                        <div className="logo-block">
+                          <img
+                            src="https://logonoid.com/images/princeton-university-logo.png"
                             loading="lazy"
                             width="120"
                             alt=""
@@ -86,48 +95,7 @@ export default function Home() {
                         </div>
                         <div className="logo-block">
                           <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/65957355f4393f8cdc9d9d36_bayer.svg"
-                            loading="lazy"
-                            width="60"
-                            alt=""
-                          />
-                        </div>
-                        <div className="logo-block">
-                          <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/6595751b941538c4918f506a_goog.svg"
-                            loading="lazy"
-                            width="100"
-                            alt=""
-                          />
-                        </div>
-                        <div className="logo-block">
-                          <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/65957355535215a416e16e76_stanford.svg"
-                            loading="lazy"
-                            width="110"
-                            alt=""
-                          />
-                        </div>
-                        <div className="logo-block">
-                          <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/6595751c854d356716e99e7e_astraz.svg"
-                            loading="lazy"
-                            width="130"
-                            alt=""
-                          />
-                        </div>
-                        <div className="logo-block">
-                          <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/659573551e941013c0279514_worldbank.svg"
-                            loading="lazy"
-                            width="80"
-                            alt=""
-                            className="image-15"
-                          />
-                        </div>
-                        <div className="logo-block">
-                          <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/6595751ffc301bf4ea80b06e_mckin.svg"
+                            src="https://collegefoundation.org/wp-content/uploads/2022/05/Stanford-Logo.png"
                             loading="lazy"
                             width="120"
                             alt=""
@@ -135,9 +103,9 @@ export default function Home() {
                         </div>
                         <div className="logo-block">
                           <img
-                            src="https://cdn.prod.website-files.com/6516f50e7a19045d3d7b12f2/6595751b6e4f88dea4457be8_nasaa.svg"
+                            src="https://upload.wikimedia.org/wikipedia/en/2/21/UCSD_School_of_Medicine_logo.png"
                             loading="lazy"
-                            width="90"
+                            width="200"
                             alt=""
                           />
                         </div>
