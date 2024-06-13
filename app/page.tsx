@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -344,8 +345,11 @@ export default function Home() {
               allow="autoplay"
             />
             <p className="text-center mt-4">
-              Here's a <a href="">link</a> to my cover letter as well.
-              Hand-written. No GPT.
+              Here's a{" "}
+              <a href="https://docs.google.com/document/d/1xgodWEKQ2UvUIkv7RprkNBc6jRQQfpbNq8JIp_pcJo8/edit">
+                link
+              </a>{" "}
+              to my cover letter as well. Hand-written. No GPT.
             </p>
           </div>
         </div>
@@ -403,7 +407,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className="mt-24 text-center font-semibold text-2xl text-[#E1E9D6]">
+            <p className="mt-24 text-center font-medium text-4xl text-[#E1E9D6]">
               Thanks for considering me! Hope to chat soon :)
             </p>
           </div>
