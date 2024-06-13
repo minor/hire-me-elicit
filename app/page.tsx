@@ -11,7 +11,7 @@ export default function Home() {
       <div className="page-wrapper">
         <div className="nav w-nav">
           <div className="nav-container container">
-            <nav role="navigation" className="nav-menu w-nav-menu">
+            <nav role="navigation" className="nav-menu w-nav-menu hidden">
               <a
                 href="/"
                 className="mr-0 text-[#313848] text-lg font-medium whitespace-nowrap"
@@ -26,19 +26,8 @@ export default function Home() {
               </a>
               <div className="nav-left pr-[48rem]"></div>
               <div className="nav-right">
-                <a
-                  href="/users/auth?show=signin"
-                  data-analytics="navbar-signin-clicked"
-                  className="nav-link sign-in w-nav-link"
-                >
-                  Sign In
-                </a>
-                <a
-                  data-analytics="navbar-signup-clicked"
-                  href="/users/auth?show=signup"
-                  className="button w-inline-block"
-                >
-                  <div className="text-block-6">Sign Up</div>
+                <a href="#faq" className="button w-inline-block">
+                  <div className="text-block-6">Learn Why</div>
                 </a>
               </div>
             </nav>
@@ -55,17 +44,15 @@ export default function Home() {
                   </span>
                 </h1>
                 <div className="hero-subheading">
-                  Simply put: I'm fascinated by the work Elicit is doing & I{" "}
-                  <span className="font-medium">really</span> want to help make
-                  it better. Also, I'm interested in theoretical ML and would
-                  love tinkering with LLMs.
+                  Simply put: I&apos;m fascinated by the work Elicit is doing &
+                  I <span className="font-medium">really</span> want to help
+                  make it better. Also, I&apos;m interested in theoretical ML
+                  and would love tinkering with LLMs.
                   <br />
                 </div>
-                <div className="buttons-row">
-                  <a href="#faq" className="button cta-button w-inline-block">
-                    <div className="text-base font-medium">Here's Why</div>
-                  </a>
-                </div>
+                <a href="#faq" className="button cta-button w-inline-block">
+                  <div className="text-base font-medium">Here&apos;s Why</div>
+                </a>
               </div>
               <div className="hero-logos">
                 <div className="label">
@@ -147,7 +134,9 @@ export default function Home() {
           >
             <div className="section-header-wrap">
               <div className="label">Skills</div>
-              <h2 className="section-heading">Here's what I'm good at</h2>
+              <h2 className="section-heading">
+                Here&apos;s what I&apos;m good at
+              </h2>
             </div>
             <div
               data-delay="4000"
@@ -174,18 +163,19 @@ export default function Home() {
                   <div className="testimonial-row">
                     <div className="testimonial-block">
                       <div className="testimonial-text">
-                        i'm good at full-stack? tbh way better with front-end
-                        but really trying to learn the back-end this summer too
+                        i&apos;m good at full-stack? tbh way better with
+                        front-end but really trying to learn the back-end this
+                        summer too
                       </div>
                     </div>
                     <div className="testimonial-block center">
                       <div className="testimonial-text">
-                        i'm like really into ml and nlp
+                        i&apos;m like really into ml and nlp
                       </div>
                     </div>
                     <div className="testimonial-block">
                       <div className="testimonial-text">
-                        i'm a grinder, learn fast, and want to ship fast
+                        i&apos;m a grinder, learn fast, and want to ship fast
                       </div>
                     </div>
                   </div>
@@ -211,7 +201,7 @@ export default function Home() {
                 >
                   Send me an email!
                 </a>{" "}
-                I'll probably respond within an hour.
+                I&apos;ll probably respond within an hour.
               </div>
             </div>
             <div className="faq-side">
@@ -239,8 +229,8 @@ export default function Home() {
                     work on?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It's animated by default, but you can disable it if you
-                    prefer.
+                    Yes. It&apos;s animated by default, but you can disable it
+                    if you prefer.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
@@ -249,8 +239,8 @@ export default function Home() {
                     developer?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It's animated by default, but you can disable it if you
-                    prefer.
+                    Yes. It&apos;s animated by default, but you can disable it
+                    if you prefer.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
@@ -259,14 +249,14 @@ export default function Home() {
                     work on?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It's animated by default, but you can disable it if you
-                    prefer.
+                    Yes. It&apos;s animated by default, but you can disable it
+                    if you prefer.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-6">
                   <AccordionTrigger className="text-left text-xl">
-                    Why'd you reach out so late? What's your history with
-                    Elicit?
+                    Why&apos;d you reach out so late? What&apos;s your history
+                    with Elicit?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
                     ASAP. I can be in the office as early as tomorrow.
@@ -295,14 +285,17 @@ export default function Home() {
             className="container opacity-100"
           >
             <div className="section-header-wrap">
-              <div className="label">Don't trust me? Ask Halo.</div>
+              <div className="label">Don&apos;t trust me? Ask Halo.</div>
               <h2 className="section-heading">
-                Hey Halo, what's Saurish good at?
+                Hey Halo, what&apos;s Saurish good at?
               </h2>
+              <div className="testimonial-text">
+                Halo is trained on my resume and my cover letter — ask it any
+                questions, and it should be able to help you or at the very
+                least infer.
+              </div>
             </div>
             <div>Insert chat bot here</div>
-            <div>Insert resume</div>
-            <div>link cover letter</div>
 
             <iframe
               src="https://drive.google.com/file/d/1RbQat82Q4NSpJ_OHcbH_Tci5m8spGBS4/preview"
@@ -312,7 +305,7 @@ export default function Home() {
               allow="autoplay"
             />
             <p className="text-center mt-4">
-              Here's a{" "}
+              Here&apos;s a{" "}
               <a href="https://docs.google.com/document/d/1xgodWEKQ2UvUIkv7RprkNBc6jRQQfpbNq8JIp_pcJo8/edit">
                 link
               </a>{" "}
@@ -332,13 +325,13 @@ export default function Home() {
                   1. In a thought experiment conducted by me (maybe a little bit
                   biased), everyone at the Elicit team said that having an
                   intern was a good idea! Morale boosts and the overall
-                  productivity is increased — and I'll keep the Slack chats
+                  productivity is increased — and I&apos;ll keep the Slack chats
                   interesting!
                 </div>
                 <div className="sidenotes">
-                  Not to mention... who doesn't want a gen-Z teenager pushing
-                  buggy code to prod! (I would never do this, but again, it's a
-                  thought experiment so why not have fun with it?)
+                  Not to mention... who doesn&apos;t want a gen-Z teenager
+                  pushing buggy code to prod! (I would never do this, but again,
+                  it&apos;s a thought experiment so why not have fun with it?)
                 </div>
               </div>
               <div className="stats-row">
@@ -357,8 +350,8 @@ export default function Home() {
                 <div className="stats-block">
                   <div className="stats-number">20</div>
                   <div className="text-block-10">
-                    more PR's pushed each week (ambitious I know, but hey,
-                    what's a startup without ambition)
+                    more PR&apos;s pushed each week (ambitious I know, but hey,
+                    what&apos;s a startup without ambition)
                     <br />
                   </div>
                 </div>
