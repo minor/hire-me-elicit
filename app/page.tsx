@@ -11,7 +11,7 @@ export default function Home() {
       <div className="page-wrapper">
         <div className="nav w-nav">
           <div className="nav-container container">
-            <nav role="navigation" className="nav-menu w-nav-menu hidden">
+            <nav role="navigation" className="hidden md:flex">
               <a
                 href="/"
                 className="mr-0 text-[#313848] text-lg font-medium whitespace-nowrap"
