@@ -385,15 +385,13 @@ export default function Home() {
               <h2 className="section-heading">
                 Hey Halo, what&apos;s Saurish good at?
               </h2>
-              <Halo />
               <div className="testimonial-text">
                 Halo is trained on my resume and my cover letter — ask it any
                 questions, and it should be able to help you or at the very
                 least infer.
               </div>
+              <Halo />
             </div>
-            <div id="halo" className=""></div>
-
             <div className="flex justify-center items-center">
               <iframe
                 src="https://drive.google.com/file/d/1RbQat82Q4NSpJ_OHcbH_Tci5m8spGBS4/preview"
