@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Why you should hire me as your intern: Elicit",
   description: "Why you should hire me as your intern: Elicit",
   openGraph: {
-    images: "/og.png",
+    images: "https://www.whyyoushouldhiremeelicit.xyz/og.png",
   },
 };
 
