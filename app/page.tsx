@@ -124,7 +124,6 @@ export default function Home() {
         </div>
         <div id="Skills" className="section lite">
           <div
-            data-w-id="4a6101fe-9ad1-9bbe-664a-795ef7079f2f"
             style={{
               transform:
                 "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
@@ -171,6 +170,7 @@ export default function Home() {
                     <div className="testimonial-block center">
                       <div className="testimonial-text">
                         i&apos;m like really into ml and nlp
+                        https://github.com/elicit/machine-learning-list
                       </div>
                     </div>
                     <div className="testimonial-block">
@@ -184,7 +184,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div id="FAQ" className="section">
+        <div id="faq" className="section">
           <div className="flex-top container flex">
             <div className="sticky-side">
               <div className="label">FAQ</div>
@@ -196,7 +196,7 @@ export default function Home() {
               <div className="section-subheading">
                 Have more questions?{" "}
                 <a
-                  href="/cdn-cgi/l/email-protection#5f363139301f3a33363c362b713c3032"
+                  href="mailto:saurishs1215@gmail.com?subject=From%20Elicit"
                   className="link"
                 >
                   Send me an email!
@@ -211,63 +211,106 @@ export default function Home() {
                     Why do you want to work at Elicit?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                    The answer is three-fold:
+                    <br />
+                    a) the mission: I'm a researcher and want to see how
+                    applications of AI can help improve the speed and depth of
+                    research in academia;
+                    <br />
+                    b) the company: I think the work environment at Elicit
+                    sounds amazing and as someone interested in AI safety and
+                    LLMs for their future, this would be an awesome place to
+                    grow and learn (don't worry, I don't need hand-holding
+                    though!);
+                    <br />
+                    c) I'm a builder by nature and I like shipping fast and
+                    iterating through different designs — something only an
+                    early-stage startup environment would be able to support. I
+                    think Elicit could be that place for me!
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
                   <AccordionTrigger className="text-left text-xl">
-                    Why should we hire you?
+                    We already have interns, why should we hire another?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It comes with default styles that matches the other
-                    components&apos; aesthetic.
+                    A) I know how to get stuff done and{" "}
+                    <span className="italic">fast</span> — just replicated your
+                    landing page in TailwindCSS and Next.js (and the bulk of it
+                    was done in a day).
+                    <br />
+                    B) I can help ship a user-centric feature out a week — I
+                    basically built my own "chat with papers" feature on this
+                    website (like Charlie) and it only took me an hour or two to
+                    figure out.
+                    <br />
+                    C) I do LLM research (see{" "}
+                    <a href="underline" className="underline">
+                      this write-up
+                    </a>{" "}
+                    I did on transformers and state space models) and would want
+                    to help forward AI safety research / LLM research at Elicit.
+                    I want to research more. Ironically, the PI of the lab at
+                    Princeton that I work at also got his PhD underneath Josh
+                    Tenenbaum!
+                    <br />
+                    D) I do the dirty work — I'm always to willing to put in the
+                    effort and make sure things are done well and efficiently.
+                    <br />
+                    E) I learn fast — even if it's an area that I'm not that
+                    well-versed in. I want to learn a lot this summer, and I'll
+                    absorb information fast to make Elicit a better product!
                   </AccordionContent>
                 </AccordionItem>
+
                 <AccordionItem value="item-3">
                   <AccordionTrigger className="text-left text-xl">
-                    What are some ideas you have for Elicit you might want to
-                    work on?
+                    What are some ideas for Elicit you might want to work on?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
+                    1) I really want to work on collaborative research in Elicit
+                    and understanding what that looks like (i.e., maybe it
+                    involves using{" "}
+                    <a href="https://liveblocks.io/">Liveblocks</a> — I'm not
+                    100% sure, but it would be an amazing feature for Elicit
+                    Plus users + it's a cool challenge and I'd like to explore
+                    it!)
+                    <br />
+                    2)A 0-100 pipeline: sometimes the search box can be
+                    intimidating and I don't really know what to ask. How about
+                    build something that probes an idea out of the user and
+                    turns it into an actual meaningful product: 0 -&gt; 100.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
-                  <AccordionTrigger className="text-left text-xl">
-                    What are some things we should know about you as a
-                    developer?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-base">
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-5">
-                  <AccordionTrigger className="text-left text-xl">
-                    What are some ideas you have for Elicit you might want to
-                    work on?
-                  </AccordionTrigger>
-                  <AccordionContent className="text-base">
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-6">
                   <AccordionTrigger className="text-left text-xl">
                     Why&apos;d you reach out so late? What&apos;s your history
                     with Elicit?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    ASAP. I can be in the office as early as tomorrow.
+                    I've been interested in Elicit for a{" "}
+                    <span className="italic">long</span> time. I first came
+                    across it in March when I used it for a literature review
+                    for my English class, and I've been meaning to reach out (no
+                    joke, I have an email draft from March). But at the time, I
+                    didn't have the technical skills necessary to be useful for
+                    the team, and I didn't want to waste anyone's time. Over the
+                    past three months, I've coded a lot of hobby projects, and
+                    finally reached a state where I think I can{" "}
+                    <span className="italic">actually</span> contribute to
+                    Elicit's mission as an intern. That's why I waited. I hope I
+                    didn't wait too long.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-7">
+                <AccordionItem value="item-5">
                   <AccordionTrigger className="text-left text-xl">
                     When can you start?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    ASAP. I can be in the office as early as tomorrow.
+                    ASAP. I can be in the office as early as Monday morning. I'm
+                    located in San Jose, but happy to commute to Oakload via
+                    BART (preferably 3x a week)! I start school September 3, so
+                    there's still at least a good 10 weeks I can work in-person.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -276,7 +319,6 @@ export default function Home() {
         </div>
         <div id="Skills" className="section lite">
           <div
-            data-w-id="4a6101fe-9ad1-9bbe-664a-795ef7079f2f"
             style={{
               transform:
                 "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
@@ -297,16 +339,19 @@ export default function Home() {
             </div>
             <div>Insert chat bot here</div>
 
-            <iframe
-              src="https://drive.google.com/file/d/1RbQat82Q4NSpJ_OHcbH_Tci5m8spGBS4/preview"
-              width="640"
-              height="480"
-              className="mx-auto"
-              allow="autoplay"
-            />
+            <div className="flex justify-center items-center">
+              <iframe
+                src="https://drive.google.com/file/d/1RbQat82Q4NSpJ_OHcbH_Tci5m8spGBS4/preview"
+                className="md:w-[640px] md:h-[480px] h-[360px] w-[320px]"
+                allow="autoplay"
+              />
+            </div>
             <p className="text-center mt-4">
               Here&apos;s a{" "}
-              <a href="https://docs.google.com/document/d/1xgodWEKQ2UvUIkv7RprkNBc6jRQQfpbNq8JIp_pcJo8/edit">
+              <a
+                href="https://docs.google.com/document/d/1xgodWEKQ2UvUIkv7RprkNBc6jRQQfpbNq8JIp_pcJo8/edit"
+                className="underline"
+              >
                 link
               </a>{" "}
               to my cover letter as well. Hand-written. No GPT.
@@ -355,10 +400,7 @@ export default function Home() {
                     <br />
                   </div>
                 </div>
-                <div
-                  data-w-id="31827212-9974-7399-d01c-be0d00c20379"
-                  className="stats-block"
-                >
+                <div className="stats-block">
                   <div className="stats-number">50%</div>
                   <div className="text-block-11">
                     More fun and productivity at the office! <sup>1</sup>
@@ -367,7 +409,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className="mt-24 text-center font-medium text-4xl text-[#E1E9D6]">
+            <p className="text-[#e1e9d666] mx-4 mt-12 text-center font-light text-base md:hidden">
+              1. In a thought experiment conducted by me (maybe a little bit
+              biased), everyone at the Elicit team said that having an intern
+              was a good idea! Morale boosts and the overall productivity is
+              increased — and I&apos;ll keep the Slack chats interesting!
+              <br />
+              <br />
+              Not to mention... who doesn&apos;t want a gen-Z teenager pushing
+              buggy code to prod! (I would never do this, but again, it&apos;s a
+              thought experiment so why not have fun with it?)
+            </p>
+            <p className="mt-24 mx-4 text-center font-medium text-4xl text-[#E1E9D6]">
               Thanks for considering me! Hope to chat soon :)
             </p>
           </div>
