@@ -283,9 +283,9 @@ export default function Home() {
                     was done in a day).
                     <br />
                     B) I can help ship a user-centric feature out a week — I
-                    basically built my own "chat with papers" feature on this
-                    website (like Charlie) and it only took me an hour or two to
-                    figure out.
+                    basically built my own &quot;chat with papers&quot; feature
+                    on this website (like Charlie) and it only took me an hour
+                    or two to figure out.
                     <br />
                     C) I do LLM research (see{" "}
                     <a href="underline" className="underline">
