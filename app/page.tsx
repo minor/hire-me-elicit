@@ -137,21 +137,7 @@ export default function Home() {
                 Here&apos;s what I&apos;m good at
               </h2>
             </div>
-            <div
-              data-delay="4000"
-              data-animation="cross"
-              className="testimonial-slider w-slider"
-              data-autoplay="false"
-              data-easing="ease"
-              data-hide-arrows="false"
-              data-disable-swipe="false"
-              data-autoplay-limit="0"
-              data-nav-spacing="3"
-              data-duration="500"
-              data-infinite="true"
-              role="region"
-              aria-label="carousel"
-            >
+            <div className="testimonial-slider w-slider">
               <div className="w-slider-mask" id="w-slider-mask-1">
                 <div
                   className="w-slide opacity-100"
@@ -162,20 +148,77 @@ export default function Home() {
                   <div className="testimonial-row">
                     <div className="testimonial-block">
                       <div className="testimonial-text">
-                        i&apos;m good at full-stack? tbh way better with
-                        front-end but really trying to learn the back-end this
-                        summer too
+                        <span className="font-medium">
+                          Full-stack development
+                        </span>
+                        : I have more experience with frontend (Next.js /
+                        Tailwind) but have recently been building with and
+                        exploring Python-based backends (would love to explore
+                        Node though!). Built{" "}
+                        <a
+                          href="https://x.com/saurishhh/status/1792699172279448019"
+                          className="text-xl"
+                        >
+                          Synthify
+                        </a>
+                        , an AI-powered synthetic data generation platform.
+                        Currently interested in LLM memory and releasing a
+                        package soon to personalize LLM models easily with
+                        enhanced memory storage (better than LangChain and
+                        OpenAI). Also have scripts written up to accurately
+                        detect when LLM hallucination has happened, and would
+                        like to implement this into an easily callable API.
                       </div>
                     </div>
                     <div className="testimonial-block center">
                       <div className="testimonial-text">
-                        i&apos;m like really into ml and nlp
-                        https://github.com/elicit/machine-learning-list
+                        <span className="font-medium">Research</span>: Been
+                        conducting research at top-level labs for the past four
+                        years (even{" "}
+                        <a
+                          href="https://www.medrxiv.org/content/10.1101/2022.04.03.22273365v1"
+                          className="text-xl"
+                        >
+                          preprinted a paper
+                        </a>{" "}
+                        and presented at{" "}
+                        <a href="https://www.opam.net/" className="text-xl">
+                          OPAM
+                        </a>
+                        ) Right now, I&apos;m really into theoretical machine
+                        learning and NLP. Been through all Tier 1 and half-way
+                        through Tier 2 on the{" "}
+                        <a
+                          href="https://github.com/elicit/machine-learning-list"
+                          className="text-xl"
+                        >
+                          ML list posted by Andreas
+                        </a>
+                        . I&apos;m one of the organizers of the AI Alignment
+                        group at Princeton and I&apos;ve done research on
+                        transformers and state space models. I wrote up a blog
+                        post (unreleased) about these topics, which you can find{" "}
+                        <a href="" className="text-xl">
+                          here
+                        </a>
+                        . I&apos;d love to research more at Elicit. :)
                       </div>
                     </div>
                     <div className="testimonial-block">
                       <div className="testimonial-text">
-                        i&apos;m a grinder, learn fast, and want to ship fast
+                        <span className="font-medium">Work Ethic</span>:
+                        I&apos;m a grinder because I&apos;m really ambitious and
+                        I know I have to grind to make an impact in the world. I
+                        believe in the importance of shipping fast while
+                        maintaining high-quality standards, and I want to focus
+                        my time on building products that users love to use and
+                        would actually help them in their research settings. I
+                        don&apos;t work by the clock — i.e. I hate being defined
+                        or predisposed to a 9-5, I work to get things done and
+                        ship. I&apos;m not perfect, but I can assure you:
+                        I&apos;ll put all my energy into trying to get tasks
+                        done with an OCD-like attention to detail and
+                        high-quality code.
                       </div>
                     </div>
                   </div>
@@ -213,17 +256,17 @@ export default function Home() {
                   <AccordionContent className="text-base">
                     The answer is three-fold:
                     <br />
-                    a) the mission: I'm a researcher and want to see how
+                    a) the mission: I&apos;m a researcher and want to see how
                     applications of AI can help improve the speed and depth of
                     research in academia;
                     <br />
                     b) the company: I think the work environment at Elicit
                     sounds amazing and as someone interested in AI safety and
                     LLMs for their future, this would be an awesome place to
-                    grow and learn (don't worry, I don't need hand-holding
-                    though!);
+                    grow and learn (don&apos;t worry, I don&apos;t need
+                    hand-holding though!);
                     <br />
-                    c) I'm a builder by nature and I like shipping fast and
+                    c) I&apos;m a builder by nature and I like shipping fast and
                     iterating through different designs — something only an
                     early-stage startup environment would be able to support. I
                     think Elicit could be that place for me!
@@ -254,12 +297,14 @@ export default function Home() {
                     Princeton that I work at also got his PhD underneath Josh
                     Tenenbaum!
                     <br />
-                    D) I do the dirty work — I'm always to willing to put in the
-                    effort and make sure things are done well and efficiently.
+                    D) I do the dirty work — I&apos;m always to willing to put
+                    in the effort and make sure things are done well and
+                    efficiently.
                     <br />
-                    E) I learn fast — even if it's an area that I'm not that
-                    well-versed in. I want to learn a lot this summer, and I'll
-                    absorb information fast to make Elicit a better product!
+                    E) I learn fast — even if it&apos;s an area that I&apos;m
+                    not that well-versed in. I want to learn a lot this summer,
+                    and I&apos;ll absorb information fast to make Elicit a
+                    better product!
                   </AccordionContent>
                 </AccordionItem>
 
@@ -271,15 +316,15 @@ export default function Home() {
                     1) I really want to work on collaborative research in Elicit
                     and understanding what that looks like (i.e., maybe it
                     involves using{" "}
-                    <a href="https://liveblocks.io/">Liveblocks</a> — I'm not
-                    100% sure, but it would be an amazing feature for Elicit
-                    Plus users + it's a cool challenge and I'd like to explore
-                    it!)
+                    <a href="https://liveblocks.io/">Liveblocks</a> — I&apos;m
+                    not 100% sure, but it would be an amazing feature for Elicit
+                    Plus users + it&apos;s a cool challenge and I&apos;d like to
+                    explore it!)
                     <br />
                     2)A 0-100 pipeline: sometimes the search box can be
-                    intimidating and I don't really know what to ask. How about
-                    build something that probes an idea out of the user and
-                    turns it into an actual meaningful product: 0 -&gt; 100.
+                    intimidating and I don&apos;t really know what to ask. How
+                    about build something that probes an idea out of the user
+                    and turns it into an actual meaningful product: 0 -&gt; 100.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
@@ -288,18 +333,19 @@ export default function Home() {
                     with Elicit?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    I've been interested in Elicit for a{" "}
+                    I&apos;ve been interested in Elicit for a{" "}
                     <span className="italic">long</span> time. I first came
                     across it in March when I used it for a literature review
-                    for my English class, and I've been meaning to reach out (no
-                    joke, I have an email draft from March). But at the time, I
-                    didn't have the technical skills necessary to be useful for
-                    the team, and I didn't want to waste anyone's time. Over the
-                    past three months, I've coded a lot of hobby projects, and
-                    finally reached a state where I think I can{" "}
-                    <span className="italic">actually</span> contribute to
-                    Elicit's mission as an intern. That's why I waited. I hope I
-                    didn't wait too long.
+                    for my English class, and I&apos;ve been meaning to reach
+                    out (no joke, I have an email draft from March). But at the
+                    time, I didn&apos;t have the technical skills necessary to
+                    be useful for the team, and I didn&apos;t want to waste
+                    anyone&apos;s time. Over the past three months, I&apos;ve
+                    coded a lot of hobby projects, and finally reached a state
+                    where I think I can <span className="italic">actually</span>{" "}
+                    contribute to Elicit&apos;s mission as an intern.
+                    That&apos;s why I waited. I hope I didn&apos;t wait too
+                    long.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
@@ -307,10 +353,11 @@ export default function Home() {
                     When can you start?
                   </AccordionTrigger>
                   <AccordionContent className="text-base">
-                    ASAP. I can be in the office as early as Monday morning. I'm
-                    located in San Jose, but happy to commute to Oakload via
-                    BART (preferably 3x a week)! I start school September 3, so
-                    there's still at least a good 10 weeks I can work in-person.
+                    ASAP. I can be in the office as early as Monday morning.
+                    I&apos;m located in San Jose, but happy to commute to
+                    Oakload via BART (preferably 3x a week)! I start school
+                    September 3, so there&apos;s still at least a good 10 weeks
+                    I can work in-person.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -337,7 +384,7 @@ export default function Home() {
                 least infer.
               </div>
             </div>
-            <div>Insert chat bot here</div>
+            <div id="halo" className=""></div>
 
             <div className="flex justify-center items-center">
               <iframe
