@@ -490,7 +490,7 @@ export default function Home() {
             |{" "}
             <a
               className="underline text-[#cbdd87bf] text-base hover:text-[#cbdd81ff]"
-              href="https://saurish.com/"
+              href="https://github.com/minor/hire-me-elicit/"
             >
               github repo for this site
             </a>
