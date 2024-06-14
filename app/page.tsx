@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Halo from "../components/Halo";
 
 export default function Home() {
   return (
@@ -185,7 +186,7 @@ export default function Home() {
                         <a href="https://www.opam.net/" className="text-xl">
                           OPAM
                         </a>
-                        ) Right now, I&apos;m really into theoretical machine
+                        ). Right now, I&apos;m really into theoretical machine
                         learning and NLP. Been through all Tier 1 and half-way
                         through Tier 2 on the{" "}
                         <a
@@ -280,7 +281,13 @@ export default function Home() {
                     A) I know how to get stuff done and{" "}
                     <span className="italic">fast</span> — just replicated your
                     landing page in TailwindCSS and Next.js (and the bulk of it
-                    was done in a day).
+                    was done in a day).{" "}
+                    <a
+                      href="https://github.com/minor/hire-me-elicit"
+                      className="underline"
+                    >
+                      Link to GitHub repository.
+                    </a>
                     <br />
                     B) I can help ship a user-centric feature out a week — I
                     basically built my own &quot;chat with papers&quot; feature
@@ -321,9 +328,9 @@ export default function Home() {
                     Plus users + it&apos;s a cool challenge and I&apos;d like to
                     explore it!)
                     <br />
-                    2)A 0-100 pipeline: sometimes the search box can be
+                    2) A 0-100 pipeline: sometimes the search box can be
                     intimidating and I don&apos;t really know what to ask. How
-                    about build something that probes an idea out of the user
+                    about building something that probes an idea out of the user
                     and turns it into an actual meaningful product: 0 -&gt; 100.
                   </AccordionContent>
                 </AccordionItem>
@@ -378,6 +385,7 @@ export default function Home() {
               <h2 className="section-heading">
                 Hey Halo, what&apos;s Saurish good at?
               </h2>
+              <Halo />
               <div className="testimonial-text">
                 Halo is trained on my resume and my cover letter — ask it any
                 questions, and it should be able to help you or at the very
