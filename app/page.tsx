@@ -388,7 +388,7 @@ export default function Home() {
               <div className="testimonial-text">
                 Halo is trained on my resume and my cover letter — ask it any
                 questions, and it should be able to help you or at the very
-                least infer.
+                least infer. Uses OpenAI, LangChain, and Pinecone.
               </div>
               <Halo />
             </div>
